@@ -64,7 +64,7 @@
 				"gems" :
 				{
 					"type": "GENERATE_RESOURCE",
-					"subtype": "resource.gems",
+					"subtype": "resource.sulfur",
 					"val": 1
 				}
 			}

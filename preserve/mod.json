@@ -4,7 +4,7 @@
 	
 	"author" : "FF Team, mod : Turbanellos",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "1.6.2",
+	"version" : "1.6.3",
 	"modType" : "Town",	
 	"compatibility":
 	{
@@ -112,6 +112,7 @@
     ],
 	"changelog" :
     {
+		"1.6.3"   : [ "Bugfix" ],
 		"1.6.2"   : [ "Fixed console warnings and errors" ],
 		"1.6.1"   : [ "Polish translation reworked and updated for new mod version by FallainBlack" ],
 		"1.6.0"   : [ "Remade by original author" ],
