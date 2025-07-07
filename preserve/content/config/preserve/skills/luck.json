@@ -10,14 +10,14 @@
 				{ 
 							"type" : "STACK_HEALTH",
 							"valueType" : "PERCENT_TO_BASE",
-							"limiters": [ {"type": "CREATURE_FACTION_LIMITER","parameters" : ["preserve"]} ]
+							"limiters": [ {"type": "FACTION_LIMITER","parameters" : ["preserve"]} ]
 				},
 				"fifthEffect" :
 				{ 
 							"type" : "CREATURE_DAMAGE",
 							"subtype" : "creatureDamageBoth",
 							"valueType" : "PERCENT_TO_BASE",
-							"limiters": [ {"type": "CREATURE_FACTION_LIMITER","parameters" : ["preserve"]} ]
+							"limiters": [ {"type": "FACTION_LIMITER","parameters" : ["preserve"]} ]
 				}
 			}
 		},

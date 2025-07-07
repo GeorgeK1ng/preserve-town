@@ -10,7 +10,7 @@
 			"biography" : "When he was a child, Callum found he had the talent in scouting. However, while he joined the army, he was despised by his commander in Avlee. Now he joined the new army in Turraria and started a new life.",
 			"specialty" :
 			{
-				"description" : "{Scouting}\r\n\r\nReceives a 10% per level bonus to Scouting skill percentage.",
+				"description" : "Receives a 10% per level bonus to Scouting skill percentage.",
 				"tooltip" : "Bonus: secondary skill",
 				"name" : "Scouting"
 			}

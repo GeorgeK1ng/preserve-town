@@ -90,7 +90,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "creatureDamageBoth",
+					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 2, 2, 2 ]
@@ -98,7 +98,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "creatureDamageBoth", //max
+					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]
@@ -114,15 +114,17 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.slayer",
-					"addInfo" : 3
+					"subtype" : "spell.slayer"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 2, 2, 3, 3 ]	
 			},
 			{
-				"bonus" :
+				"bonus" :  //old fearless
 				{
-					"type" : "FEARLESS"
+					"type" : "FEARFUL",
+					"valueType" : "INDEPENDENT_MAX",
+					"description" : "PLACEHOLDER",
+					"val" : 0
 				},
 				"values" : [ false, false, false, false, false, false, true, true, true, true ]
 			},

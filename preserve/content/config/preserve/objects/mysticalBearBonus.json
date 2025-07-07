@@ -63,7 +63,7 @@
 						{ 
 							"type": "PRIMARY_SKILL",
 							"val" : 1,
-							"subtype" : "primarySkill.attack",
+							"subtype" : "attack",
 							"valueType" : "ADDITIVE_VALUE",
 							"duration" : "ONE_BATTLE",
 							"limiters": [ {"type":"CREATURE_TYPE_LIMITER","parameters": [ "fairybear", true ]} ]
@@ -71,7 +71,7 @@
 						{ 
 							"type": "PRIMARY_SKILL",
 							"val" : 1,
-							"subtype" : "primarySkill.defence",
+							"subtype" : "defence",
 							"valueType" : "ADDITIVE_VALUE",
 							"duration" : "ONE_BATTLE",
 							"limiters": [ {"type":"CREATURE_TYPE_LIMITER","parameters": [ "fairybear", true ]} ]
@@ -139,7 +139,7 @@
 						{ 
 							"type": "PRIMARY_SKILL",
 							"val" : 1,
-							"subtype" : "primarySkill.attack",
+							"subtype" : "attack",
 							"valueType" : "ADDITIVE_VALUE",
 							"duration" : "ONE_BATTLE",
 							"limiters": [ {"type":"CREATURE_TYPE_LIMITER","parameters": [ "fairybear", true ]} ]
@@ -147,7 +147,7 @@
 						{ 
 							"type": "PRIMARY_SKILL",
 							"val" : 1,
-							"subtype" : "primarySkill.defence",
+							"subtype" : "defence",
 							"valueType" : "ADDITIVE_VALUE",
 							"duration" : "ONE_BATTLE",
 							"limiters": [ {"type":"CREATURE_TYPE_LIMITER","parameters": [ "fairybear", true ]} ]
@@ -197,7 +197,7 @@
 						{ 
 							"type": "PRIMARY_SKILL",
 							"val" : 2,
-							"subtype" : "primarySkill.attack",
+							"subtype" : "attack",
 							"valueType" : "ADDITIVE_VALUE",
 							"duration" : "ONE_BATTLE",
 							"limiters": [ {"type":"CREATURE_TYPE_LIMITER","parameters": [ "fairybear", true ]} ]
@@ -205,7 +205,7 @@
 						{ 
 							"type": "PRIMARY_SKILL",
 							"val" : 2,
-							"subtype" : "primarySkill.defence",
+							"subtype" : "defence",
 							"valueType" : "ADDITIVE_VALUE",
 							"duration" : "ONE_BATTLE",
 							"limiters": [ {"type":"CREATURE_TYPE_LIMITER","parameters": [ "fairybear", true ]} ]
@@ -246,8 +246,7 @@
 						"message" : 55,
 						"appearChance" : { "min" : 75, "max" : 100 },
 						"bonuses" : [ { "type" : "LUCK", "val" : 3, "duration" : "ONE_BATTLE", "description" : 69 } ] // NOTE: strings has %s placeholder for morale value
-					},
-					
+					}
 				]
 			}
 		}

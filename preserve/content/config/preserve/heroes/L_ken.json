@@ -10,7 +10,7 @@
 			"biography" : "Ken supposed his hometown in chaos. Thus, he wants to find the real order. After he visited Erathia and Bracada, he still does not know what the real order is. He is often immersed in the fantasy of his own world.",
 			"specialty" :
 			{
-				"description" : "{Weakness}\r\n\r\nCasts Weakness with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units.)",
+				"description" : "Casts Weakness with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units.)",
 				"tooltip" : "Bonus: spell",
 				"name" : "Weakness"
 			}
@@ -64,7 +64,7 @@
 				"weakness" : {
 					"type": "SPECIAL_SPELL_LEV",
 					"subtype": "spell.weakness",
-					"addInfo": 5
+					"val": 5
 				}
 			}
 		}

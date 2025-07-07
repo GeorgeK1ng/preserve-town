@@ -54,7 +54,7 @@
 		"speed" : 8,
 		"abilities" :
 		{
-					"firstStrike" : 
+			"firstStrike" : 
 			{
 				"type" : "FIRST_STRIKE"
 			}
@@ -79,14 +79,6 @@
 //					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
-			},
-			{
-				"bonus" :
-				{
-					"subtype" : "creatureDamageBoth",
-					"type" : "CREATURE_DAMAGE"
-				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
 			},
 			{
 				"bonus" :

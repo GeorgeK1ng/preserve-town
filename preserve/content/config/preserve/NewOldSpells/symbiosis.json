@@ -55,7 +55,7 @@
 			"base":
 			{
 				"power": 10,
-				"aiValue": 12,
+//				"aiValue": 12,
 				"range": "0",
 
 				"description": "{Symbiosis}",
@@ -87,7 +87,7 @@
 						"limiters": [ {
 							"type":"CREATURE_TYPE_LIMITER",
 							"parameters": [ "misfortuneeye", false ]
-						} ],
+						} ]
 					}
 				}
 			},

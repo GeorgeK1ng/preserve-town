@@ -10,7 +10,7 @@
 			"biography" : "Agrenal is a cheerful blonde bard, traveled from village to village, captivating hearts with her enchanting melodies and uplifting tales. With her presence, the team found renewed strength and determination, for Agrenal's songs invoked a sense of hope and belief in the impossible. Her music entertained, shining a light on the path of righteousness and guiding their actions towards the greater good.",
 			"specialty" :
 			{
-				"description" : "{Choir}\r\n\r\nCasting Choir as an opening battle spell.",
+				"description" : "Casting Choir as an opening battle spell.",
 				"tooltip" : "Bonus: spell",
 				"name" : "Choir"
 			}
@@ -70,10 +70,10 @@
 				},
 				"bind" : 
 				{
-				"subtype" : "spell.choir",
-				"type" : "SPELL",
-				"val" : 1,
-				"valueType" : "BASE_NUMBER"
+					"subtype" : "spell.choir",
+					"type" : "SPELL",
+					"val" : 1,
+					"valueType" : "BASE_NUMBER"
 				}
 			}
 		}

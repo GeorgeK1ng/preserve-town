@@ -50,13 +50,10 @@
 			"base":
 			{
 				"power": 10,
-				"aiValue": 12,
+//				"aiValue": 12,
 				"range": "0",
-
 				"description": "{Armor Break}\r\n\r\nNo need description.",
-
 				"cost": 0,
-
 				"targetModifier":
 				{
 					"smart": true
@@ -69,7 +66,7 @@
 						"val" : -20,
 						"duration" : "N_TURNS",
 						"turns": 3
-					},
+					}
 				}
 			},
 			"none":

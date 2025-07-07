@@ -53,97 +53,47 @@
 			"base":
 			{
 				"power": 10,
-				"aiValue": 12,
+//				"aiValue": 12,
 				"range": "0",
 				"targetModifier":
 				{
 					"smart": true
-				}
+				},
+				"description": "{Magic Barrier}\r\n\r\n sprite dragon used",
+	 
+				"cost": 0,
+	 
+				"effects":{
+					"castMisfortune" :
+					{
+						"type" : "SPELL_AFTER_ATTACK",
+						"subtype" : "spell.symbActive",
+						"val" : 100
+					},
+					"blindImmunity" : 
+					{
+						"type" : "SPELL_IMMUNITY",
+						"subtype" : "spell.symbActive",
+						"addInfo" : 1
+					}
+				}				
 			},
 			"none":
 			{
-				"description": "{Magic Barrier}\r\n\r\n sprite dragon used",
-	 
-				"cost": 0,
-	 
-				"effects":{
-					"castMisfortune" :
-					{
-						"type" : "SPELL_AFTER_ATTACK",
-						"subtype" : "spell.symbActive",
-						"val" : 100
-					},
-					"blindImmunity" : 
-					{
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "spell.symbActive",
-						"addInfo" : 1
-					}
-				}
+
 			},
 			"basic":
 			{
-				"description": "{Magic Barrier}\r\n\r\n sprite dragon used",
-	 
-				"cost": 0,
-	 
-				"effects":{
-					"castMisfortune" :
-					{
-						"type" : "SPELL_AFTER_ATTACK",
-						"subtype" : "spell.symbActive",
-						"val" : 100
-					},
-					"blindImmunity" : 
-					{
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "spell.symbActive",
-						"addInfo" : 1
-					}
-				}
+
 			},
 			"advanced":
 			{
-				"description": "{Magic Barrier}\r\n\r\n sprite dragon used",
-	 
-				"cost": 0,
-	 
-				"effects":{
-					"castMisfortune" :
-					{
-						"type" : "SPELL_AFTER_ATTACK",
-						"subtype" : "spell.symbActive",
-						"val" : 100
-					},
-					"blindImmunity" : 
-					{
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "spell.symbActive",
-						"addInfo" : 1
-					}
-				}
+
 			},
 			"expert":
 			{
-				"description": "{Magic Barrier}\r\n\r\n sprite dragon used",
-	 
-				"cost": 0,
-	 
-				"effects":{
-					"castMisfortune" :
-					{
-						"type" : "SPELL_AFTER_ATTACK",
-						"subtype" : "spell.symbActive",
-						"val" : 100
-					},
-					"blindImmunity" : 
-					{
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "spell.symbActive",
-						"addInfo" : 1
-					}
-				}
+
 			}
 		}
-		}
 	}
+}

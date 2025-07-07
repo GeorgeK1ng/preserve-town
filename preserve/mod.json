@@ -4,11 +4,11 @@
 	
 	"author" : "FF Team, mod : Turbanellos",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "1.6.3",
+	"version" : "1.6.4",
 	"modType" : "Town",	
 	"compatibility":
 	{
-		"min" : "1.6.0"
+		"min" : "1.7.0"
 	},
 	"chinese" : {
 		"name" : "禁林",
@@ -112,6 +112,7 @@
     ],
 	"changelog" :
     {
+		"1.6.4"   : [ "Update to vcmi-1.7 format" ],
 		"1.6.3"   : [ "Bugfix" ],
 		"1.6.2"   : [ "Fixed console warnings and errors" ],
 		"1.6.1"   : [ "Polish translation reworked and updated for new mod version by FallainBlack" ],

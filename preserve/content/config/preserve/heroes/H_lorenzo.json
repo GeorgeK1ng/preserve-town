@@ -10,7 +10,7 @@
 			"biography" : "Flowers would be the total of Caroline's life. She supposes every moment when the flowers bloom in her garden will be her feast. Adventure is not her hobby, she just wants to find increasingly beautiful flowers.",
 			"specialty" :
 			{
-				"description" : "nIncreases Speed of any Waspworts or Venom Waspworts by 1 and their Attack and Defense skills by 5% for every 4 levels (rounded up).",
+				"description" : "Increases Speed of any Waspworts or Venom Waspworts by 1 and their Attack and Defense skills by 5% for every 4 levels (rounded up).",
 				"tooltip" : "Bonus: creature",
 				"name" : "Waspworts"
 			}

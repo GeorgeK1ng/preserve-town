@@ -48,7 +48,7 @@
 				"description": "{Power Barrier}\r\n\r\n undefined", 
 				"range": "0-1",
 				"power": 10,
-				"aiValue": 20,
+//				"aiValue": 20,
 				"targetModifier":
 				{
 					"smart": true
@@ -91,16 +91,13 @@
 			},
 			"basic":
 			{
-				"description": "{Power Barrier}\r\n\r\n undefined"
 				
 			},
 			"advanced":
 			{
-				"description": "{Power Barrier}\r\n\r\n undefined"
 			},
 			"expert":
 			{
-				"description": "{Power Barrier}\r\n\r\n undefined"
 				
 			}
 		}

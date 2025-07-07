@@ -30,8 +30,9 @@
 			"noneOf" : {
 				"bonus.MIND_IMMUNITY" : "normal",
 				"bonus.NON_LIVING" : "normal",
+				"bonus.GARGOYLE" : "normal",
 				"bonus.SIEGE_WEAPON" : "absolute",
-				"bonus.FEARLESS" : "absolute",
+//				"bonus.FEARLESS" : "absolute", don't know how to set now old fear and fearless bonus			
 				"bonus.UNDEAD" : "absolute"
 			}
 		},
@@ -55,15 +56,12 @@
 			"base":
 			{
 				"power": 0,
-				"aiValue": 20,
+//				"aiValue": 20,
 				"range" : "0",
 				"targetModifier":
 				{
 					"smart": false
-				}
-			},
-			"none":
-			{
+				},
 				"description": "{Scout}\r\n\r\n undefined",
 	 
 				"cost": 0, 
@@ -76,55 +74,20 @@
 						],
 						"turns": 1
 					}
-				}
+				}				
+			},
+			"none":
+			{
+
 			},
 			"basic":
 			{
-				"description": "{Scout}\r\n\r\n undefined",
-	 
-				"cost": 0,
-				"effects" : {
-					"notActive" : {
-						"val" : 0,
-						"type" : "NOT_ACTIVE",
-						"duration" : [
-							"N_TURNS"
-						],
-						"turns": 1
-					}
-				}
 			},
 			"advanced":
 			{
-				"description": "{Scout}\r\n\r\n undefined",
-	 
-				"cost": 0,
-				"effects" : {
-					"notActive" : {
-						"val" : 0,
-						"type" : "NOT_ACTIVE",
-						"duration" : [
-							"N_TURNS"
-						],
-						"turns": 1
-					}
-				}
 			},
 			"expert":
 			{
-				"description": "{Scout}\r\n\r\n undefined",
-	 
-				"cost": 0,
-				"effects" : {
-					"notActive" : {
-						"val" : 0,
-						"type" : "NOT_ACTIVE",
-						"duration" : [
-							"N_TURNS"
-						],
-						"turns": 1
-					}
-				}
 			}
 		}
 	}

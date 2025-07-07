@@ -49,9 +49,10 @@
 			"noneOf" : {
 				"bonus.MIND_IMMUNITY" : "normal",
 				"bonus.NON_LIVING" : "normal",
+				"bonus.GARGOYLE" : "normal",
 				"bonus.MECHANICAL" : "normal",
 				"bonus.SIEGE_WEAPON" : "absolute",
-				"bonus.FEARLESS" : "absolute",
+//				"bonus.FEARLESS" : "absolute", //how to set up old fear and fearless bonus?
 				"bonus.UNDEAD" : "absolute"
 			}
 		},
@@ -61,7 +62,7 @@
 			"base":
 			{
 				"power": 10,
-				"aiValue": 12,
+//				"aiValue": 12,
 				"range": "X",
 				"targetModifier":
 				{

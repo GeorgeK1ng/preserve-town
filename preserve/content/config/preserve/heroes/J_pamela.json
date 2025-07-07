@@ -10,7 +10,7 @@
 			"biography" : "Pamela used to be the sorceress apprentice with her partner in Enroth. After the war of Ironfist, she left her hometown and become an adventurer in this land.",
 			"specialty" :
 			{
-				"description" : "{ICe Bolt}\r\n\r\nCasts Ice Bolt with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units.)",
+				"description" : "Casts Ice Bolt with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units.)",
 				"tooltip" : "Bonus: spell",
 				"name" : "Ice Bolt"
 			}
@@ -65,7 +65,7 @@
 				"iceBolt" : {
 					"type": "SPECIAL_SPELL_LEV",
 					"subtype": "spell.iceBolt",
-					"addInfo": 5
+					"val": 5
 				}
 			}
 		}

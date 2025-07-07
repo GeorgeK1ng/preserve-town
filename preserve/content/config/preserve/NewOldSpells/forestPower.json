@@ -53,153 +53,60 @@
 			"base":
 			{
 				"power": 10,
-				"aiValue": 12,
-				"range": "0",
+//				"aiValue": 12,
 				"targetModifier":
 				{
 					"smart": true
-				}
+				},
+				"description": "{Forest Power}\r\n\r\n undefined",
+	 
+				"cost": 0,
+				"range":"X",
+	 
+				"effects":{
+					"alwaysMaximumDamage" : {
+						"val" : 0,
+						"type" : "ALWAYS_MAXIMUM_DAMAGE",
+						"valueType" : "INDEPENDENT_MAX",
+						"duration" : "N_TURNS",
+						"turns": 3
+					},
+					"attack" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "attack",
+						"val" : 3,
+						"duration" : "N_TURNS"
+					},
+					"defence" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "defence",
+						"val" : 3,
+						"duration" : "N_TURNS"
+					},
+					"stacksSpeed" : {
+//						"addInfo" : 0,
+						"type" : "STACKS_SPEED",
+						"val" : 3,
+						"duration" : "N_TURNS"
+					}
+				}				
 			},
 			"none":
 			{
-				"description": "{Forest Power}\r\n\r\n undefined",
-	 
-				"cost": 0,
-				"range":"X",
-	 
-				"effects":{
-					"alwaysMaximumDamage" : {
-						"val" : 0,
-						"type" : "ALWAYS_MAXIMUM_DAMAGE",
-						"valueType" : "INDEPENDENT_MAX",
-						"duration" : "N_TURNS",
-						"turns": 3
-					},
-					"attack" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.attack",
-						"val" : 3,
-						"duration" : "N_TURNS"
-					},
-					"defence" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
-						"val" : 3,
-						"duration" : "N_TURNS"
-					},
-					"stacksSpeed" : {
-						"addInfo" : 0,
-						"type" : "STACKS_SPEED",
-						"val" : 3,
-						"duration" : "N_TURNS"
-					}
-				}
+
 			},
 			"basic":
 			{
-				"description": "{Forest Power}\r\n\r\n undefined",
-	 
-				"cost": 0,
-				"range":"X",
-	 
-				"effects":{
-					"alwaysMaximumDamage" : {
-						"val" : 0,
-						"type" : "ALWAYS_MAXIMUM_DAMAGE",
-						"valueType" : "INDEPENDENT_MAX",
-						"duration" : "N_TURNS",
-						"turns": 3
-					},
-					"attack" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.attack",
-						"val" : 3,
-						"duration" : "N_TURNS"
-					},
-					"defence" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
-						"val" : 3,
-						"duration" : "N_TURNS"
-					},
-					"stacksSpeed" : {
-						"addInfo" : 0,
-						"type" : "STACKS_SPEED",
-						"val" : 3,
-						"duration" : "N_TURNS"
-					}
-				}
+
 			},
 			"advanced":
 			{
-				"description": "{Forest Power}\r\n\r\n undefined",
-	 
-				"cost": 0,
-				"range":"X",
-	 
-				"effects":{
-					"alwaysMaximumDamage" : {
-						"val" : 0,
-						"type" : "ALWAYS_MAXIMUM_DAMAGE",
-						"valueType" : "INDEPENDENT_MAX",
-						"duration" : "N_TURNS",
-						"turns": 3
-					},
-					"attack" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.attack",
-						"val" : 3,
-						"duration" : "N_TURNS"
-					},
-					"defence" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
-						"val" : 3,
-						"duration" : "N_TURNS"
-					},
-					"stacksSpeed" : {
-						"addInfo" : 0,
-						"type" : "STACKS_SPEED",
-						"val" : 3,
-						"duration" : "N_TURNS"
-					}
-				}
+	
 			},
 			"expert":
 			{
-				"description": "{Forest Power}\r\n\r\n undefined",
-	 
-				"cost": 0,
-				"range":"X",
-	 
-				"effects":{
-					"alwaysMaximumDamage" : {
-						"val" : 0,
-						"type" : "ALWAYS_MAXIMUM_DAMAGE",
-						"valueType" : "INDEPENDENT_MAX",
-						"duration" : "N_TURNS",
-						"turns": 3
-					},
-					"attack" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.attack",
-						"val" : 3,
-						"duration" : "N_TURNS"
-					},
-					"defence" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
-						"val" : 3,
-						"duration" : "N_TURNS"
-					},
-					"stacksSpeed" : {
-						"addInfo" : 0,
-						"type" : "STACKS_SPEED",
-						"val" : 3,
-						"duration" : "N_TURNS"
-					}
-				}
-			},
+
+			}
 		}
 	}
 }
