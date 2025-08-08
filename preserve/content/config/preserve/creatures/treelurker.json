@@ -1,115 +1,176 @@
 {
-	"treelurker":
-	{
-		"name" :
-		{
+	"treelurker" : {
+		"name" : {
 			"plural" : "Wolves",
 			"singular" : "Wolf"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 30,
-			 "min" : 16
+		"advMapAmount" : {
+			"max" : 30,
+			"min" : 16
 		},
 		"faction" : "preserve",
 		"aiValue" : 192,
 		"attack" : 8,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 110
 		},
-		"damage" :
-		{
-			 "max" : 4,
-			 "min" : 2
+		"damage" : {
+			"max" : 4,
+			"min" : 2
 		},
 		"defense" : 3,
 		"fightValue" : 198,
-    "graphics": {
-      "animation": "preserve/battle/creatures/C2Cree.def",
-      "map": "preserve/map/creatures/AVWC165.def",
-      "iconSmall": "preserve/iconsSmall/creatures/CPrS165P.bmp",
-      "iconLarge": "preserve/iconsBig/creatures/CPrL165P.bmp",
-      "timeBetweenFidgets": 1,
-      "animationTime": {
-        "walk": 1.25,
-        "attack": 1,
-        "idle": 10
-      }
-    },
-    "doubleWide" : true,
+		"graphics" : {
+			"animation" : "preserve/battle/creatures/C2Cree.def",
+			"map" : "preserve/map/creatures/AVWC165.def",
+			"iconSmall" : "preserve/iconsSmall/creatures/CPrS165P.bmp",
+			"iconLarge" : "preserve/iconsBig/creatures/CPrL165P.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.25,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"doubleWide" : true,
 		"growth" : 8,
 		"hitPoints" : 10,
 		"level" : 2,
-		"upgrades":
-		[
+		"upgrades" : [
 			"caveleaper"
 		],
-		"sound" :
-		{
-			"attack": "preserve/S165ATTK.wav",
-			"defend": "preserve/S165DFND.wav",
-			"killed": "preserve/S165KILL.wav",
-			"move": "preserve/S165MOVE.wav",
-			"wince": "preserve/S165WNCE.wav"
+		"sound" : {
+			"attack" : "preserve/S165ATTK.wav",
+			"defend" : "preserve/S165DFND.wav",
+			"killed" : "preserve/S165KILL.wav",
+			"move" : "preserve/S165MOVE.wav",
+			"wince" : "preserve/S165WNCE.wav"
 		},
 		"speed" : 6,
-		"stackExperience" :
- 
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
-			},	
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					3,
+					4
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
+				"values" : [
+					1,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					3,
+					4,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 1, 1, 2, 2, 2, 3, 3, 4 ]
+				"values" : [
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 0, 1, 1, 1, 2, 2, 3, 3, 3 ]
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					3
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "FLYING"
 				},
-				"values" : [ false, false, true, true, true, true, true, true, true, true ]
+				"values" : [
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "ENCHANTED",
 					"subtype" : "airShield"
 				},
-				"values" : [ 1, 1, 1, 2, 2, 2, 2, 3, 3, 3 ]			
+				"values" : [
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3,
+					3,
+					3
+				]
 			}
 		]
 	}

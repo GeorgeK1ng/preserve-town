@@ -1,36 +1,30 @@
 {
-	"k_polly" :
-	{
+	"k_polly" : {
 		"class" : "bard",
 		"female" : true,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Polly",
 			"biography" : "Halflings found Polly in the forest and they provide life for her. However, no one knows the origin of the girl, because she never tell her story to anyone.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Sorcery skill percentage.",
 				"tooltip" : "Bonus: secondary skill",
 				"name" : "Sorcery"
 			}
 		},
-		
-		"images" :
-		{
+
+		"images" : {
 			"specialtySmall" : "preserve/heroes/polly/Un32Sorc.bmp",
 			"specialtyLarge" : "preserve/heroes/polly/Un44Sorc.bmp",
 			"large" : "preserve/heroes/polly/HPL002BR.png",
 			"small" : "preserve/heroes/polly/HPS002BR.png"
 		},
 
-		"spellbook" :
-		[
+		"spellbook" : [
 			"summonBoat"
 		],
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "halflings",
 				"max" : 30,
@@ -48,8 +42,7 @@
 			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -59,9 +52,9 @@
 				"skill" : "sorcery"
 			}
 		],
-		
-		"specialty": {
-			"secondary": "sorcery"
+
+		"specialty" : {
+			"secondary" : "sorcery"
 		}
 	}
 }

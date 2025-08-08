@@ -1,36 +1,30 @@
 {
-	"n_belinda" :
-	{
+	"n_belinda" : {
 		"class" : "bard",
 		"female" : true,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Belinda",
 			"biography" : "Belinda dreamed to become a writer when she was a child. She has found many inspirations from adventure experience. However, she thought her novel is still not attractive, so she wants to find the best plot in the battlefield.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Intelligence skill percentage.",
 				"tooltip" : "Bonus: secondary skill",
 				"name" : "Intelligence"
 			}
 		},
-		
-		"images" :
-		{
+
+		"images" : {
 			"specialtySmall" : "preserve/heroes/belinda/UN32T193.bmp",
 			"specialtyLarge" : "preserve/heroes/belinda/UN44T193.bmp",
 			"large" : "preserve/heroes/belinda/HPL005BR.png",
 			"small" : "preserve/heroes/belinda/HPS005BR.png"
 		},
 
-		"spellbook" :
-		[
+		"spellbook" : [
 			"bless"
 		],
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "halflings",
 				"max" : 30,
@@ -48,8 +42,7 @@
 			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -59,9 +52,9 @@
 				"skill" : "intelligence"
 			}
 		],
-		
-		"specialty": {
-			"secondary": "intelligence"
+
+		"specialty" : {
+			"secondary" : "intelligence"
 		}
 	}
 }

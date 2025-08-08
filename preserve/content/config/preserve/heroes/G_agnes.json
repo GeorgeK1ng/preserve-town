@@ -1,31 +1,26 @@
 {
-	"g_agnes" :
-	{
+	"g_agnes" : {
 		"class" : "guardian",
 		"female" : false,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Callum",
 			"biography" : "When he was a child, Callum found he had the talent in scouting. However, while he joined the army, he was despised by his commander in Avlee. Now he joined the new army in Turraria and started a new life.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Receives a 10% per level bonus to Scouting skill percentage.",
 				"tooltip" : "Bonus: secondary skill",
 				"name" : "Scouting"
 			}
 		},
-		
-		"images" :
-		{
+
+		"images" : {
 			"specialtySmall" : "preserve/heroes/agnes/UN32T186.bmp",
 			"specialtyLarge" : "preserve/heroes/agnes/UN44T186.bmp",
 			"large" : "preserve/heroes/agnes/HPL006GN.png",
 			"small" : "preserve/heroes/agnes/HPS006GN.png"
 		},
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "halflings",
 				"max" : 30,
@@ -43,16 +38,15 @@
 			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "advanced",
 				"skill" : "scouting"
 			}
 		],
-		
-		"specialty": {
-			"secondary": "scouting"
+
+		"specialty" : {
+			"secondary" : "scouting"
 		}
 	}
 }

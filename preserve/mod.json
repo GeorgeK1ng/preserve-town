@@ -1,13 +1,12 @@
 {
 	"name" : "Preserve Town",
 	"description" : "New town made by Ben Yan",
-	
+
 	"author" : "FF Team, mod : Turbanellos",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.6.5",
-	"modType" : "Town",	
-	"compatibility":
-	{
+	"modType" : "Town",
+	"compatibility" : {
 		"min" : "1.7.0"
 	},
 	"chinese" : {
@@ -38,11 +37,12 @@
 			"translation/preserve/polish.json"
 		]
 	},
-	
-    "factions" : [ "config/preserve/town" ],
-	
-	"creatures" :
-	[
+
+	"factions" : [
+		"config/preserve/town"
+	],
+
+	"creatures" : [
 		"config/preserve/creatures/halflings.json",
 		"config/preserve/creatures/hobbit.json",
 		"config/preserve/creatures/treelurker.json",
@@ -56,20 +56,18 @@
 		"config/preserve/creatures/fairybear.json",
 		"config/preserve/creatures/mysticalbear.json",
 		"config/preserve/creatures/treant.json",
-		"config/preserve/creatures/ancienttreant.json",	
+		"config/preserve/creatures/ancienttreant.json",
 		"config/preserve/creatures/zext1Raven.json",
 		"config/preserve/creatures/zext2Benu.json",
 		"config/preserve/creatures/fcommander.json"
 	],
-	
-	"heroClasses" :
-	[
+
+	"heroClasses" : [
 		"config/preserve/classes/guardian.json",
 		"config/preserve/classes/bard.json"
 	],
 
-	"heroes" :
-	[
+	"heroes" : [
 		"config/preserve/heroes/A_kulkin.json",
 		"config/preserve/heroes/B_julian.json",
 		"config/preserve/heroes/C_hanna.json",
@@ -88,8 +86,7 @@
 		"config/preserve/heroes/P_renata.json",
 		"config/preserve/heroes/S_Aegrenal.json"
 	],
-	"spells" :
-	[
+	"spells" : [
 		"config/preserve/NewOldSpells/wolverineHeart.json",
 		"config/preserve/NewOldSpells/scout.json",
 		"config/preserve/NewOldSpells/symbiosis.json",
@@ -105,32 +102,73 @@
 	"skills" : [
 		"config/preserve/skills/luck.json"
 	],
-	 "objects":
-    [
+	"objects" : [
 		"config/preserve/dwellings.json",
 		"config/preserve/objects/mysticalBearBonus.json"
-    ],
-	"changelog" :
-    {
-		"1.6.5"   : [ "Another update to vcmi-1.7 format" ],
-		"1.6.4"   : [ "Update to vcmi-1.7 format" ],
-		"1.6.3"   : [ "Bugfix" ],
-		"1.6.2"   : [ "Fixed console warnings and errors" ],
-		"1.6.1"   : [ "Polish translation reworked and updated for new mod version by FallainBlack" ],
-		"1.6.0"   : [ "Remade by original author" ],
-		"1.2.4"   : [ "Polish translation by FallainBlack" ],
-		"1.2.3"   : [ "New town theme by Fabrice-TIERCELIN and AI Udio" ],
-		"1.2.2"   : [ "Added the creatures' stackExp and fixed the commander" ],
-		"1.2.1"   : [ "Improved background" ],
-		"1.2.0"   : [ "Update to vcmi-1.4" ],
-		"1.1.9"   : [ "Update to vcmi-1.3" ],
-		"1.1.8"   : [ "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html" ],
-		"1.1.7"   : [ "Update to vcmi-1.2" ],
-		"1.1.6"   : [ "Partial special building support" ],
-		"1.1.5"   : [ "New abilities and animations" ],
-		"1.1.2"   : [ "Small bug fixes", "New puzzle by acidchalk" ],
-		"1.1.1"   : [  "Upgaded graphic", "Hero males and female sprites on the battlefields", "Bug fixes" ],
-		"1.1.0"   : [ "Bug fixes" ],
-		"1.0.0"   : [ "Initial release" ]
-    }
+	],
+	"changelog" : {
+		"1.6.5" : [
+			"Another update to vcmi-1.7 format"
+		],
+		"1.6.4" : [
+			"Update to vcmi-1.7 format"
+		],
+		"1.6.3" : [
+			"Bugfix"
+		],
+		"1.6.2" : [
+			"Fixed console warnings and errors"
+		],
+		"1.6.1" : [
+			"Polish translation reworked and updated for new mod version by FallainBlack"
+		],
+		"1.6.0" : [
+			"Remade by original author"
+		],
+		"1.2.4" : [
+			"Polish translation by FallainBlack"
+		],
+		"1.2.3" : [
+			"New town theme by Fabrice-TIERCELIN and AI Udio"
+		],
+		"1.2.2" : [
+			"Added the creatures' stackExp and fixed the commander"
+		],
+		"1.2.1" : [
+			"Improved background"
+		],
+		"1.2.0" : [
+			"Update to vcmi-1.4"
+		],
+		"1.1.9" : [
+			"Update to vcmi-1.3"
+		],
+		"1.1.8" : [
+			"Chinese translation from https://www.h3wog.com/thread-77661-1-1.html"
+		],
+		"1.1.7" : [
+			"Update to vcmi-1.2"
+		],
+		"1.1.6" : [
+			"Partial special building support"
+		],
+		"1.1.5" : [
+			"New abilities and animations"
+		],
+		"1.1.2" : [
+			"Small bug fixes",
+			"New puzzle by acidchalk"
+		],
+		"1.1.1" : [
+			"Upgaded graphic",
+			"Hero males and female sprites on the battlefields",
+			"Bug fixes"
+		],
+		"1.1.0" : [
+			"Bug fixes"
+		],
+		"1.0.0" : [
+			"Initial release"
+		]
+	}
 }

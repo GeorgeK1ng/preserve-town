@@ -1,32 +1,26 @@
 {
-	"d_terence" :
-	{
-    "class": "guardian",
-    "female" : false,
-		
-		"texts" :
-		{
+	"d_terence" : {
+		"class" : "guardian",
+		"female" : false,
+
+		"texts" : {
 			"name" : "Terence",
 			"biography" : "Terence used be a ranger in Avlee. One day, he and his partners were attacked by a kind of strange creatures. Fortunately, he had not been killed by these creatures, and then he became the friend of them. Now he found this creature can be used in the battle.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases Speed of any Wolves or Dire Wolves by 1 and their Attack and Defense skills by 5% for every 5 levels (rounded up).",
 				"tooltip" : "Bonus: creature",
 				"name" : "Wolves"
 			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "preserve/heroes/terence/Un32Leap.bmp",
 			"specialtyLarge" : "preserve/heroes/terence/Un44Leap.bmp",
 			"large" : "preserve/heroes/terence/HPL003GN.png",
 			"small" : "preserve/heroes/terence/HPS003GN.png"
 		},
-		
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "treelurker",
 				"max" : 8,
@@ -43,8 +37,7 @@
 				"min" : 5
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "tactics"
@@ -54,10 +47,9 @@
 				"skill" : "artillery"
 			}
 		],
-		
+
 		"specialty" : {
 			"creature" : "treelurker"
 		}
 	}
 }
-

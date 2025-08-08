@@ -1,47 +1,40 @@
 {
-	"mysticalbear":
-	{
-		"name" :
-		{
+	"mysticalbear" : {
+		"name" : {
 			"plural" : "Greater Druids",
 			"singular" : "Greater Druid"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 10,
-			 "min" : 5
+		"advMapAmount" : {
+			"max" : 10,
+			"min" : 5
 		},
 		"faction" : "preserve",
 		"aiValue" : 2358,
 		"attack" : 16,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 1100
 		},
-		"damage" :
-		{
-			 "max" : 20,
-			 "min" : 16
+		"damage" : {
+			"max" : 20,
+			"min" : 16
 		},
 		"defense" : 16,
 		"fightValue" : 2013,
-    "graphics": {
-      "animation": "preserve/battle/creatures/C6MBea.def",
-      "map": "preserve/map/creatures/AVWC174.def",
-      "iconSmall": "preserve/iconsSmall/creatures/CPrS174P.bmp",
-      "iconLarge": "preserve/iconsBig/creatures/CPrL174P.bmp",
-      "timeBetweenFidgets": 1,
-      "animationTime": {
-        "walk": 1.5,
-        "attack": 1,
-        "idle": 10
-      },
-	  "missile" :
-			{
+		"graphics" : {
+			"animation" : "preserve/battle/creatures/C6MBea.def",
+			"map" : "preserve/map/creatures/AVWC174.def",
+			"iconSmall" : "preserve/iconsSmall/creatures/CPrS174P.bmp",
+			"iconLarge" : "preserve/iconsBig/creatures/CPrL174P.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.5,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" : {
 				"projectile" : "CPRZEAX.DEF",
 				"attackClimaxFrame" : 7,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 38,
 					"upperY" : -65,
 					"middleX" : 36,
@@ -49,95 +42,144 @@
 					"lowerX" : 21,
 					"lowerY" : -50
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
-    },
+		},
 		"growth" : 2,
 		"shots" : 12,
 		"hitPoints" : 60,
 		"level" : 6,
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "CHYDDFND",
 			"defend" : "TELEIN",
 			"killed" : "GENIDFND",
 			"move" : "preserve/S173MOVE.wav",
-			"shoot": "CHYDDFND",
+			"shoot" : "CHYDDFND",
 			"wince" : "preserve/S173WNCE.wav"
- 		},
+		},
 		"speed" : 8,
-    "abilities":
-      {
-		"canShoot" : {
+		"abilities" : {
+			"canShoot" : {
 				"type" : "SHOOTER"
 			},
-			"noMeleePenalty" :
-			{
+			"noMeleePenalty" : {
 				"type" : "NO_MELEE_PENALTY"
 			},
-			"throwingStorm" :
-			{
+			"throwingStorm" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "leshyBolt"
 			},
-			"wolfbonus" :
-			{
-				"propagator" : 	"HERO",
+			"wolfbonus" : {
+				"propagator" : "HERO",
 				"type" : "ADDITIONAL_ATTACK",
 				"val" : 1,
-				"limiters": [ {
-						"type":"CREATURE_TYPE_LIMITER",
-						"creature":  "caveleaper", 
-						"includeUpgrades" : false
-						} ]
-			},
-			"tigerBonus" :
+				"limiters" : [
 					{
-						"propagator" : 	"HERO",
-						"type" : "SPELL_AFTER_ATTACK",
-						"subtype" : "scout",
-						"val" : 20,
-						"limiters": [ {
-							"type":"CREATURE_TYPE_LIMITER",
-							"creature":  "misfortuneeye", 
-							"includeUpgrades" : false
-						} ]
+						"type" : "CREATURE_TYPE_LIMITER",
+						"creature" : "caveleaper",
+						"includeUpgrades" : false
 					}
-	    },
-		"stackExperience" :
- 
-		[
+				]
+			},
+			"tigerBonus" : {
+				"propagator" : "HERO",
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "scout",
+				"val" : 20,
+				"limiters" : [
+					{
+						"type" : "CREATURE_TYPE_LIMITER",
+						"creature" : "misfortuneeye",
+						"includeUpgrades" : false
+					}
+				]
+			}
+		},
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
-			},	
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					8,
+					9
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
 			}
 		]
 	}

@@ -1,35 +1,30 @@
 {
-	"s_Agrenal" :
-	{
+	"s_Agrenal" : {
 		"class" : "bard",
 		"female" : true,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Agrenal",
 			"biography" : "Agrenal is a cheerful blonde bard, traveled from village to village, captivating hearts with her enchanting melodies and uplifting tales. With her presence, the team found renewed strength and determination, for Agrenal's songs invoked a sense of hope and belief in the impossible. Her music entertained, shining a light on the path of righteousness and guiding their actions towards the greater good.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Casting Choir as an opening battle spell.",
 				"tooltip" : "Bonus: spell",
 				"name" : "Choir"
 			}
 		},
 
-    "images": {
-      "specialtySmall": "preserve/heroes/s_agrenal/UN32Mo.bmp",
-      "specialtyLarge": "preserve/heroes/s_agrenal/UN44Mo.bmp",
-      "large": "preserve/heroes/s_agrenal/HPL009BR.png",
-      "small": "preserve/heroes/s_agrenal/HPS009BR.png"
-    },
-    
-    "spellbook" :
-		[
+		"images" : {
+			"specialtySmall" : "preserve/heroes/s_agrenal/UN32Mo.bmp",
+			"specialtyLarge" : "preserve/heroes/s_agrenal/UN44Mo.bmp",
+			"large" : "preserve/heroes/s_agrenal/HPL009BR.png",
+			"small" : "preserve/heroes/s_agrenal/HPS009BR.png"
+		},
+
+		"spellbook" : [
 			"choir"
 		],
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "halflings",
 				"max" : 30,
@@ -46,8 +41,7 @@
 				"min" : 3
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -57,19 +51,15 @@
 				"skill" : "leadership"
 			}
 		],
-		"specialty": 
-		{
-			"bonuses":
-			{
-				"choir":
-				{
-					"type": "OPENING_BATTLE_SPELL",
-					"subtype": "choir",
+		"specialty" : {
+			"bonuses" : {
+				"choir" : {
+					"type" : "OPENING_BATTLE_SPELL",
+					"subtype" : "choir",
 					"val" : 7,
 					"valueType" : "BASE_NUMBER"
 				},
-				"bind" : 
-				{
+				"bind" : {
 					"subtype" : "choir",
 					"type" : "SPELL",
 					"val" : 1,
@@ -79,5 +69,3 @@
 		}
 	}
 }
-
-

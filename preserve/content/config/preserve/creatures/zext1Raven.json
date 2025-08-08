@@ -1,107 +1,136 @@
 {
-	"extra2raven":
-	{
-		"name" :
-		{
-			"plural" : "Ravens",//not used now
+	"extra2raven" : {
+		"name" : {
+			"plural" : "Ravens", //not used now
 			"singular" : "Raven"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 25,
-			 "min" : 16
+		"advMapAmount" : {
+			"max" : 25,
+			"min" : 16
 		},
 		"faction" : "preserve",
 		"special" : true,
 		"aiValue" : 228,
 		"attack" : 7,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 150
 		},
-		"damage" :
-		{
-			 "max" : 4,
-			 "min" : 3
+		"damage" : {
+			"max" : 4,
+			"min" : 3
 		},
 		"defense" : 4,
 		"fightValue" : 233,
-    "graphics": {
-      "animation": "preserve/battle/creatures/Z2Raven.def",
-      "map": "preserve/map/creatures/AVWC166.def",
-      "iconSmall": "preserve/iconsSmall/creatures/CPrSEX2P.bmp",
-      "iconLarge": "preserve/iconsBig/creatures/CPrLEX2P.bmp",
-      "timeBetweenFidgets": 1,
-      "animationTime": {
-        "walk": 1.50,
-        "attack": 1,
-        "idle": 10
-      }
-    },
+		"graphics" : {
+			"animation" : "preserve/battle/creatures/Z2Raven.def",
+			"map" : "preserve/map/creatures/AVWC166.def",
+			"iconSmall" : "preserve/iconsSmall/creatures/CPrSEX2P.bmp",
+			"iconLarge" : "preserve/iconsBig/creatures/CPrLEX2P.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.5,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
 		"growth" : 8,
 		"hitPoints" : 13,
 		"level" : 2,
-		"sound" :
-		{
-			"attack": "ROCCATTK.wav",
-			"defend": "ROCCDFND.wav",
-			"killed": "ROCCKILL.wav",
-			"move": "ROCCMOVE.wav",
-			"wince": "ROCCWNCE.wav"
+		"sound" : {
+			"attack" : "ROCCATTK.wav",
+			"defend" : "ROCCDFND.wav",
+			"killed" : "ROCCKILL.wav",
+			"move" : "ROCCMOVE.wav",
+			"wince" : "ROCCWNCE.wav"
 		},
 		"speed" : 8,
-    "abilities":
-		{
-		"canFly" : 
-		{
-			"type" : "FLYING"
-		},
-			"extraRetaliation" :
-			{
+		"abilities" : {
+			"canFly" : {
+				"type" : "FLYING"
+			},
+			"extraRetaliation" : {
 				"type" : "ADDITIONAL_RETALIATION",
 				"val" : 5
 			},
-			"blinds" :
-			{
+			"blinds" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "blind",
 				"val" : 30
 			}
-		},	
-		"stackExperience" :
-		[
+		},
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
-			},	
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					3,
+					4
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
+				"values" : [
+					1,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					3,
+					4,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 1, 1, 2, 2, 2, 3, 3, 4 ]
+				"values" : [
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 0, 1, 1, 1, 2, 2, 3, 3, 3 ]
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					3
+				]
 			}
 		]
-	}	
+	}
 }

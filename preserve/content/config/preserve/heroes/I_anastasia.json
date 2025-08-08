@@ -1,30 +1,26 @@
 {
-	"i_anastasia" :
-	{
+	"i_anastasia" : {
 		"class" : "bard",
 		"female" : true,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Anastasia",
 			"biography" : "Anastasia used to be a high level druid in Avlee, she never participate in any battle for elves. However, she still be framed as a betrayer and was deported from Avlee. Until now, she still do not know what the justice is.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases Speed of any Forest Druids or Greater Druids by 1 and their Attack and Defense skills by 5% for every 6 levels (rounded up).",
 				"tooltip" : "Bonus: creature",
 				"name" : "Forest Druids"
 			}
 		},
 
-    "images": {
-      "specialtySmall": "preserve/heroes/anastasia/Un32Drud.bmp",
-      "specialtyLarge": "preserve/heroes/anastasia/Un44Drud.bmp",
-      "large": "preserve/heroes/anastasia/HPL000BR.png",
-      "small": "preserve/heroes/anastasia/HPS000BR.png"
-    },
+		"images" : {
+			"specialtySmall" : "preserve/heroes/anastasia/Un32Drud.bmp",
+			"specialtyLarge" : "preserve/heroes/anastasia/Un44Drud.bmp",
+			"large" : "preserve/heroes/anastasia/HPL000BR.png",
+			"small" : "preserve/heroes/anastasia/HPS000BR.png"
+		},
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "halflings",
 				"max" : 30,
@@ -42,14 +38,13 @@
 			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "advanced",
 				"skill" : "wisdom"
 			}
 		],
-		
+
 		"specialty" : {
 			"creature" : "fairybear"
 		}

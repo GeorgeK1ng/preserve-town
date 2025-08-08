@@ -1,36 +1,30 @@
 {
-	"j_pamela" :
-	{
+	"j_pamela" : {
 		"class" : "bard",
 		"female" : true,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Pamela",
 			"biography" : "Pamela used to be the sorceress apprentice with her partner in Enroth. After the war of Ironfist, she left her hometown and become an adventurer in this land.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Casts Ice Bolt with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units.)",
 				"tooltip" : "Bonus: spell",
 				"name" : "Ice Bolt"
 			}
 		},
-		
-		"images" :
-		{
+
+		"images" : {
 			"specialtySmall" : "preserve/heroes/pamela/UN32T189.bmp",
 			"specialtyLarge" : "preserve/heroes/pamela/UN44T189.bmp",
 			"large" : "preserve/heroes/pamela/HPL001BR.png",
 			"small" : "preserve/heroes/pamela/HPS001BR.png"
 		},
 
-		"spellbook" :
-		[
+		"spellbook" : [
 			"iceBolt"
 		],
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "halflings",
 				"max" : 30,
@@ -48,8 +42,7 @@
 			}
 		],
 
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -59,13 +52,13 @@
 				"skill" : "waterMagic"
 			}
 		],
-		
-		"specialty": {
-			"bonuses": {
+
+		"specialty" : {
+			"bonuses" : {
 				"iceBolt" : {
-					"type": "SPECIAL_SPELL_LEV",
-					"subtype": "iceBolt",
-					"val": 5
+					"type" : "SPECIAL_SPELL_LEV",
+					"subtype" : "iceBolt",
+					"val" : 5
 				}
 			}
 		}

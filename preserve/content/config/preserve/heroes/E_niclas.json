@@ -1,36 +1,29 @@
 {
-	"e_niclas" :
-	{
-    "class": "guardian",
-    "female" : false,
-		
-		"texts" :
-		{
+	"e_niclas" : {
+		"class" : "guardian",
+		"female" : false,
+
+		"texts" : {
 			"name" : "Niclas",
 			"biography" : "Niclas had to leave the hometown due to the war in his young age. He was close to death many times during his vagabondage, but he never quit his life. When he wandered into a mountain, he found a magic ring, which allowed him to obtain some sulfur every day for trading. Over time, he also became interested in alchemy.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases kingdom's sulfur production by 1 per day.",
 				"tooltip" : "Bonus: resource",
 				"name" : "+1 Sulfur"
 			}
 		},
-		"spellbook" :
-		[
-			"cure" 
+		"spellbook" : [
+			"cure"
 		],
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "preserve/heroes/niclas/UN32T184.bmp",
 			"specialtyLarge" : "preserve/heroes/niclas/UN44T184.bmp",
 			"large" : "preserve/heroes/niclas/HPL004GN.png",
 			"small" : "preserve/heroes/niclas/HPS004GN.png"
 		},
-		
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "halflings",
 				"max" : 30,
@@ -47,8 +40,7 @@
 				"min" : 3
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "logistics"
@@ -58,17 +50,15 @@
 				"skill" : "leadership"
 			}
 		],
-		
-		"specialty": {
-			"bonuses": {
-				"gems" :
-				{
-					"type": "GENERATE_RESOURCE",
-					"subtype": "sulfur",
-					"val": 1
+
+		"specialty" : {
+			"bonuses" : {
+				"gems" : {
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "sulfur",
+					"val" : 1
 				}
 			}
 		}
 	}
 }
-

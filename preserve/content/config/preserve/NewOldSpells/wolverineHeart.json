@@ -1,99 +1,81 @@
 //Named Wolverine Heart in old version. It was a skill for increasing life points before.
 {
-	"wolverineHeart":
-	{
-		"type": "ability", 
-		"name": "Magic Barrier",
-		"school":
-		{
-			"air": false,
-			"earth": false,
-			"fire": false,
-			"water": false
+	"wolverineHeart" : {
+		"type" : "ability",
+		"name" : "Magic Barrier",
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : false,
+			"water" : false
 		},
-		"level": 5,
-		"power": 10,
-		"defaultGainChance": 0, 
-		"gainChance":
-		{
-			"castle": 0,
-			"rampart": 0,
+		"level" : 5,
+		"power" : 10,
+		"defaultGainChance" : 0,
+		"gainChance" : {
+			"castle" : 0,
+			"rampart" : 0,
 			"conflux" : 0
 		},
- 
+
 		//forgetfulness animation
-		"animation":{
-			"affect":["NewOldSpells/wolverine.def"]
-		},
- 
-		"flags" : {"positive": true,"nonMagical":true},
- 
- 
-		"graphics":
-		{
-			"iconBook": "NewOldSpells/USELESS.bmp",
-			"iconScroll": "NewOldSpells/USELESS2.bmp",
-			"iconScenarioBonus": "NewOldSpells/USELESS3.bmp",
-			"iconEffect": "NewOldSpells/IN4.bmp"
+		"animation" : {
+			"affect" : [
+				"NewOldSpells/wolverine.def"
+			]
 		},
 
-		"sounds":
-		{
-			"cast": "CCYCDFND"
+		"flags" : {
+			"positive" : true,
+			"nonMagical" : true
+		},
+
+		"graphics" : {
+			"iconBook" : "NewOldSpells/USELESS.bmp",
+			"iconScroll" : "NewOldSpells/USELESS2.bmp",
+			"iconScenarioBonus" : "NewOldSpells/USELESS3.bmp",
+			"iconEffect" : "NewOldSpells/IN4.bmp"
+		},
+
+		"sounds" : {
+			"cast" : "CCYCDFND"
 		},
 		"targetType" : "LOCATION",
 		"targetCondition" : {
 			"allOf" : {
-				"preserve:creature.ancienttreant":"absolute"
+				"preserve:creature.ancienttreant" : "absolute"
 			}
 		},
- 
-		"levels":
-		{
-			"base":
-			{
-				"power": 10,
-//				"aiValue": 12,
-				"range": "0",
-				"targetModifier":
-				{
-					"smart": true
+
+		"levels" : {
+			"base" : {
+				"power" : 10,
+				//				"aiValue": 12,
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
 				},
-				"description": "{Magic Barrier}\r\n\r\n sprite dragon used",
-	 
-				"cost": 0,
-	 
-				"effects":{
-					"castMisfortune" :
-					{
+				"description" : "{Magic Barrier}\r\n\r\n sprite dragon used",
+
+				"cost" : 0,
+
+				"effects" : {
+					"castMisfortune" : {
 						"type" : "SPELL_AFTER_ATTACK",
 						"subtype" : "symbActive",
 						"val" : 100
 					},
-					"blindImmunity" : 
-					{
+					"blindImmunity" : {
 						"type" : "SPELL_IMMUNITY",
 						"subtype" : "symbActive",
 						"addInfo" : 1
 					}
-				}				
+				}
 			},
-			"none":
-			{
-
-			},
-			"basic":
-			{
-
-			},
-			"advanced":
-			{
-
-			},
-			"expert":
-			{
-
-			}
+			"none" : {},
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {}
 		}
 	}
 }

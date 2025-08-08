@@ -1,36 +1,30 @@
 {
-	"l_ken" :
-	{
-    "class": "bard",
-    "female" : false,
-		
-		"texts" :
-		{
+	"l_ken" : {
+		"class" : "bard",
+		"female" : false,
+
+		"texts" : {
 			"name" : "Ken",
 			"biography" : "Ken supposed his hometown in chaos. Thus, he wants to find the real order. After he visited Erathia and Bracada, he still does not know what the real order is. He is often immersed in the fantasy of his own world.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Casts Weakness with increased effect, based on hero level compared to the level of the target unit (the bonus is greater when used on weaker units.)",
 				"tooltip" : "Bonus: spell",
 				"name" : "Weakness"
 			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "preserve/heroes/ken/Un32Weak.bmp",
 			"specialtyLarge" : "preserve/heroes/ken/Un44Weak.bmp",
 			"large" : "preserve/heroes/ken/HPL003BR.png",
 			"small" : "preserve/heroes/ken/HPS003BR.png"
 		},
-		
-		"spellbook" :
-		[
+
+		"spellbook" : [
 			"weakness"
 		],
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "halflings",
 				"max" : 30,
@@ -47,8 +41,7 @@
 				"min" : 3
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -58,16 +51,15 @@
 				"skill" : "waterMagic"
 			}
 		],
-		
-		"specialty": {
-			"bonuses": {
+
+		"specialty" : {
+			"bonuses" : {
 				"weakness" : {
-					"type": "SPECIAL_SPELL_LEV",
-					"subtype": "weakness",
-					"val": 5
+					"type" : "SPECIAL_SPELL_LEV",
+					"subtype" : "weakness",
+					"val" : 5
 				}
 			}
 		}
 	}
 }
-

@@ -1,114 +1,101 @@
 //Symbiosis Ability for grim hippogryph whose function is resurrect or cure Treant and Ancient Treant by a troop of grim hippogryph
 {
-	"symbiosisPr":
-	{
-		"type": "ability",
-		"name": "Symbiosis",
-		"school":
-		{
-			"air": false,
-			"earth": false,
-			"fire": false,
-			"water": true
+	"symbiosisPr" : {
+		"type" : "ability",
+		"name" : "Symbiosis",
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : false,
+			"water" : true
 		},
-		"level": 5,
-		"power": 10,
-		"defaultGainChance": 0,
-		"gainChance":
-		{
-			"castle": 0,
-			"rampart": 0,
+		"level" : 5,
+		"power" : 10,
+		"defaultGainChance" : 0,
+		"gainChance" : {
+			"castle" : 0,
+			"rampart" : 0,
 			"conflux" : 0
 		},
-		"animation":{
-			"affect":[{"defName":"NewOldSpells/symbiosis.def","verticalPosition":"bottom"}]
+		"animation" : {
+			"affect" : [
+				{
+					"defName" : "NewOldSpells/symbiosis.def",
+					"verticalPosition" : "bottom"
+				}
+			]
 		},
 
-		"flags" : {"positive": true, "nonMagical":true},
-
-		"graphics":
-		{
-			"iconBook": "NewOldSpells/USELESS.bmp",
-			"iconScroll": "NewOldSpells/USELESS2.bmp",
-			"iconScenarioBonus": "NewOldSpells/USELESS3.bmp",
-			"iconEffect": "NewOldSpells/IN7.bmp"
+		"flags" : {
+			"positive" : true,
+			"nonMagical" : true
 		},
 
-		"sounds":
-		{
-			"cast": "SACRIF2"
+		"graphics" : {
+			"iconBook" : "NewOldSpells/USELESS.bmp",
+			"iconScroll" : "NewOldSpells/USELESS2.bmp",
+			"iconScenarioBonus" : "NewOldSpells/USELESS3.bmp",
+			"iconEffect" : "NewOldSpells/IN7.bmp"
+		},
+
+		"sounds" : {
+			"cast" : "SACRIF2"
 		},
 		"targetType" : "LOCATION",
-		"targetCondition" :
-		{
-			"anyOf" :
-			{
-				"preserve:creature.caveleaper":"absolute",
-				"preserve:creature.misfortuneeye":"absolute",
-				"preserve:creature.fairybear":"absolute",
-				"preserve:creature.mysticalbear":"absolute"
+		"targetCondition" : {
+			"anyOf" : {
+				"preserve:creature.caveleaper" : "absolute",
+				"preserve:creature.misfortuneeye" : "absolute",
+				"preserve:creature.fairybear" : "absolute",
+				"preserve:creature.mysticalbear" : "absolute"
 			}
 		},
 
-		"levels":
-		{
-			"base":
-			{
-				"power": 10,
-//				"aiValue": 12,
-				"range": "0",
+		"levels" : {
+			"base" : {
+				"power" : 10,
+				//				"aiValue": 12,
+				"range" : "0",
 
-				"description": "{Symbiosis}",
+				"description" : "{Symbiosis}",
 
-				"cost": 0,
+				"cost" : 0,
 
-				"targetModifier":
-				{
-					"smart": true
+				"targetModifier" : {
+					"smart" : true
 				},
-				"effects":
-				{
-				"wolfBonus" :
-					{
-						"propagator" : 	"HERO",
+				"effects" : {
+					"wolfBonus" : {
+						"propagator" : "HERO",
 						"type" : "ADDITIONAL_ATTACK",
 						"val" : 1,
-						"limiters": [ {
-							"type":"CREATURE_TYPE_LIMITER",
-							"creature" : "caveleaper", 
-							"includeUpgrades" : false 
-						} ],
+						"limiters" : [
+							{
+								"type" : "CREATURE_TYPE_LIMITER",
+								"creature" : "caveleaper",
+								"includeUpgrades" : false
+							}
+						]
 					},
-					"tigerBonus" :
-					{
-						"propagator" : 	"HERO",
+					"tigerBonus" : {
+						"propagator" : "HERO",
 						"type" : "SPELL_AFTER_ATTACK",
 						"subtype" : "scout",
 						"val" : 20,
-						"limiters": [ {
-							"type":"CREATURE_TYPE_LIMITER",
-							"creature":  "misfortuneeye", 
-							"includeUpgrades" : false
-						} ]
+						"limiters" : [
+							{
+								"type" : "CREATURE_TYPE_LIMITER",
+								"creature" : "misfortuneeye",
+								"includeUpgrades" : false
+							}
+						]
 					}
 				}
 			},
-			"none":
-			{
-
-			},
-			"basic":
-			{
-
-			},
-			"advanced":
-			{
-
-			},
-			"expert":
-			{
-
-			}
+			"none" : {},
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {}
 		}
 	}
 }

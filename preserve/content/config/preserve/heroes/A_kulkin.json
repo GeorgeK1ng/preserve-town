@@ -1,32 +1,26 @@
 {
-	"a_kulkin" :
-	{
-    "class": "guardian",
-    "female" : false,
-		
-		"texts" :
-		{
-			"name" : "Kulkin",	
+	"a_kulkin" : {
+		"class" : "guardian",
+		"female" : false,
+
+		"texts" : {
+			"name" : "Kulkin",
 			"biography" : "Kulkin leaved Eeofol since the Night of Shooting Stars, he did not look for other halfling companions, and did not know where his companions finally went. Perhaps he did not believe that the so-called airship could take him out of danger. Finally he wandered to Welnin and made friends with Gnomes.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases Speed of any Gnomes or Elder Gnomes by 1 and their Attack and Defense skills by 5% for every level (rounded up).",
 				"tooltip" : "Bonus: creature",
 				"name" : "Gnomes"
 			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "preserve/heroes/kulkin/UN32HALF.bmp",
 			"specialtyLarge" : "preserve/heroes/kulkin/UN44HALF.bmp",
 			"large" : "preserve/heroes/kulkin/HPL000GN.bmp",
 			"small" : "preserve/heroes/kulkin/HPS000GN.bmp"
 		},
-		
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "halflings",
 				"max" : 20,
@@ -43,8 +37,7 @@
 				"min" : 10
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "archery"
@@ -54,10 +47,9 @@
 				"skill" : "luck"
 			}
 		],
-		
+
 		"specialty" : {
 			"creature" : "halflings"
 		}
 	}
 }
-

@@ -1,42 +1,40 @@
 {
-  "halflings": {
-    "name": {
-      "plural": "Gnomes",
-      "singular": "Gnome"
-    },
-    "advMapAmount": {
- "max" : 50,
- "min" : 20
-    },
-    "faction": "preserve",
-    "aiValue": 70,
-    "attack": 4,
-    "cost": {
-      "gold": 40
-    },
-    "damage": {
- "max" : 3,
- "min" : 1
-    },
-    "defense": 2,
-    "fightValue": 83,
-    "graphics": {
-      "animation": "preserve/battle/creatures/C1Half.def",
-      "map": "preserve/map/creatures/AVWC138.def",
-      "iconSmall": "preserve/iconsSmall/creatures/CPRS138P.bmp",
-      "iconLarge": "preserve/iconsBig/creatures/CPRL138N.bmp",
-      "timeBetweenFidgets": 1,
-      "animationTime": {
-        "walk": 1,
-        "attack": 1,
-        "idle": 10
-      },
-      "missile" :
-			{
+	"halflings" : {
+		"name" : {
+			"plural" : "Gnomes",
+			"singular" : "Gnome"
+		},
+		"advMapAmount" : {
+			"max" : 50,
+			"min" : 20
+		},
+		"faction" : "preserve",
+		"aiValue" : 70,
+		"attack" : 4,
+		"cost" : {
+			"gold" : 40
+		},
+		"damage" : {
+			"max" : 3,
+			"min" : 1
+		},
+		"defense" : 2,
+		"fightValue" : 83,
+		"graphics" : {
+			"animation" : "preserve/battle/creatures/C1Half.def",
+			"map" : "preserve/map/creatures/AVWC138.def",
+			"iconSmall" : "preserve/iconsSmall/creatures/CPRS138P.bmp",
+			"iconLarge" : "preserve/iconsBig/creatures/CPRL138N.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" : {
 				"projectile" : "PHALF.DEF",
 				"attackClimaxFrame" : 7,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 38,
 					"upperY" : -65,
 					"middleX" : 36,
@@ -44,101 +42,204 @@
 					"lowerX" : 21,
 					"lowerY" : -50
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
-    },
-    "growth": 14,
-    "hitPoints": 4,
-    "horde": 6,
-    "level": 1,
-    "upgrades": [ "hobbit" ],
-    "sound": {
-      "attack": "preserve/VINEATTK.wav",
-			"defend": "HALFDFND.wav",
-			"killed": "preserve/VINEDEAD.wav",
-			"move": "HALFMOVE.wav",
-			"wince": "HALFWNCE.wav"
-    },
-    "speed": 5,
-    "abilities": {
-    },
-		"stackExperience" :
- 
-		[
+		},
+		"growth" : 14,
+		"hitPoints" : 4,
+		"horde" : 6,
+		"level" : 1,
+		"upgrades" : [
+			"hobbit"
+		],
+		"sound" : {
+			"attack" : "preserve/VINEATTK.wav",
+			"defend" : "HALFDFND.wav",
+			"killed" : "preserve/VINEDEAD.wav",
+			"move" : "HALFMOVE.wav",
+			"wince" : "HALFWNCE.wav"
+		},
+		"speed" : 5,
+		"abilities" : {},
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL",
 					"valueType" : "BASE_NUMBER"
 				},
-				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
-			},	
+				"values" : [
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL",
 					"valueType" : "BASE_NUMBER"
 				},
-				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
-			},	
+				"values" : [
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3,
+					3
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 2, 2, 2 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
-					"subtype" : "creatureDamageMax", 
+				"bonus" : {
+					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "ENCHANTED",
 					"subtype" : "slayer"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 2, 2, 3, 3 ]	
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3
+				]
 			},
 			{
-				"bonus" :  //old fearless
-				{
+				//old fearless
+				"bonus" : {
 					"type" : "FEARFUL",
 					"valueType" : "INDEPENDENT_MIN",
 					"val" : 0
 				},
-				"values" : [ false, false, false, false, false, false, true, true, true, true ]
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "HATE",
 					"subtype" : "goblin"
 				},
-				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
+				"values" : [
+					10,
+					20,
+					30,
+					40,
+					50,
+					60,
+					70,
+					80,
+					90,
+					100
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "HATE",
 					"subtype" : "hobgoblin"
 				},
-				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
+				"values" : [
+					10,
+					20,
+					30,
+					40,
+					50,
+					60,
+					70,
+					80,
+					90,
+					100
+				]
 			}
 		]
-  }
+	}
 }
