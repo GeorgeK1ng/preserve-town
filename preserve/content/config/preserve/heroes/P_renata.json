@@ -61,7 +61,7 @@
 			"bonuses": {
 				"mirth" : {
 					"type": "OPENING_BATTLE_SPELL",
-					"subtype": "spell.mirth",
+					"subtype": "mirth",
 					"val" : 3,
 					"valueType" : "BASE_NUMBER"
 				}

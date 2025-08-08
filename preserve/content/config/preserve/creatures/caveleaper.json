@@ -59,18 +59,18 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
+
 				},
 				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.defence",
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
+
 				},
 				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
 			},
@@ -101,7 +101,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.protectAir"
+					"subtype" : "protectAir"
 				},
 				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]			
 			},
@@ -109,7 +109,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_DAMAGE_REDUCTION",
-					"subtype" : "spellSchool.any"
+					"subtype" : "any"
 				},
 				"values" : [ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 ]
 			}

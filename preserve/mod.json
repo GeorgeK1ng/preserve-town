@@ -4,7 +4,7 @@
 	
 	"author" : "FF Team, mod : Turbanellos",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "1.6.4",
+	"version" : "1.6.5",
 	"modType" : "Town",	
 	"compatibility":
 	{
@@ -112,6 +112,7 @@
     ],
 	"changelog" :
     {
+		"1.6.5"   : [ "Another update to vcmi-1.7 format" ],
 		"1.6.4"   : [ "Update to vcmi-1.7 format" ],
 		"1.6.3"   : [ "Bugfix" ],
 		"1.6.2"   : [ "Fixed console warnings and errors" ],

@@ -63,7 +63,7 @@
 			"bonuses": {
 				"weakness" : {
 					"type": "SPECIAL_SPELL_LEV",
-					"subtype": "spell.weakness",
+					"subtype": "weakness",
 					"val": 5
 				}
 			}

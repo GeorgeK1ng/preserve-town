@@ -58,28 +58,28 @@
 					"earthSusceptible" : {
                                 "type" : "SPELL_DAMAGE_REDUCTION",
                                 "val" : -25,
-                                "subtype" : "spellSchool.water",
+                                "subtype" : "water",
                                 "duration" : "N_TURNS",
 								"turns": 4
                             },
 					"earthSusceptible2" : {
                                 "type" : "SPELL_DAMAGE_REDUCTION",
                                 "val" : -25,
-                                "subtype" : "spellSchool.earth",
+                                "subtype" : "earth",
                                 "duration" : "N_TURNS",
 								"turns": 4
                             },
 					"earthSusceptible3" : {
                                 "type" : "SPELL_DAMAGE_REDUCTION",
                                 "val" : -25,
-                                "subtype" : "spellSchool.fire",
+                                "subtype" : "fire",
                                 "duration" : "N_TURNS",
 								"turns": 4
                             },
 					"earthSusceptible4" : {
                                 "type" : "SPELL_DAMAGE_REDUCTION",
                                 "val" : -25,
-                                "subtype" : "spellSchool.air",
+                                "subtype" : "air",
                                 "duration" : "N_TURNS",
 								"turns": 4
                             }
@@ -87,7 +87,7 @@
 			},
 			"none":
 			{
-				"cost": 18		
+				
 			},
 			"basic":
 			{

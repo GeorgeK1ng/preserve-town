@@ -67,62 +67,39 @@
 				"targetModifier":
 				{
 					"smart": true
-				}
+				},
+				"cost": 0,
+	 
+				"effects":{
+					"morale" : {
+						"type" : "MORALE",
+						"val" : 1,
+						"duration" : "PERMANENT"
+					},
+					"luck" : {
+						"type" : "LUCK",
+						"val" : 1,
+						"duration" : "PERMANENT"
+					}
+				}				
 			},
 			"none":
 			{
-				"description": "{Choir}\r\n\r\nImproves the morale and luck of all creatures by 1.",
-	 
-				"cost": 0,
-	 
-				"effects":{
-					"morale" : {
-						"type" : "MORALE",
-						"val" : 1,
-						"duration" : "PERMANENT"
-					},
-					"luck" : {
-						"type" : "LUCK",
-						"val" : 1,
-						"duration" : "PERMANENT"
-					}
-				}
+				"description": "{Choir}\r\n\r\nImproves the morale and luck of all creatures by 1."
 			},
 			"basic":
 			{
-				"description": "{Basic Choir}\r\n\r\nImproves the morale and luck of all creatures by 1.",
-	 
-				"cost": 0,
-	 
-				"effects":{
-					"morale" : {
-						"type" : "MORALE",
-						"val" : 1,
-						"duration" : "PERMANENT"
-					},
-					"luck" : {
-						"type" : "LUCK",
-						"val" : 1,
-						"duration" : "PERMANENT"
-					}
-				}
+				"description": "{Basic Choir}\r\n\r\nImproves the morale and luck of all creatures by 1."
 			},
 			"advanced":
 			{
 				"description": "{Advanced Choir}\r\n\r\nImproves the morale and luck of all creatures by 2.",
-	 
-				"cost": 0,
-	 
 				"effects":{
 					"morale" : {
-						"type" : "MORALE",
-						"val" : 1,
-						"duration" : "PERMANENT"
+						"val" : 2
 					},
 					"luck" : {
-						"type" : "LUCK",
-						"val" : 1,
-						"duration" : "PERMANENT"
+						"val" : 2
 					}
 				}
 			},
@@ -134,14 +111,10 @@
 	 
 				"effects":{
 					"morale" : {
-						"type" : "MORALE",
-						"val" : 1,
-						"duration" : "PERMANENT"
+						"val" : 3
 					},
 					"luck" : {
-						"type" : "LUCK",
-						"val" : 1,
-						"duration" : "PERMANENT"
+						"val" : 3
 					}
 				}
 			}

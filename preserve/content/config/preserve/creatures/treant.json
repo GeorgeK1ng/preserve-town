@@ -82,18 +82,16 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.defence",
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
@@ -116,7 +114,7 @@
 			{
 				"bonus" :
 				{
-				"subtype" : "spellSchool.fire",
+				"subtype" : "fire",
 				"type" : "SPELL_SCHOOL_IMMUNITY"
 				},
 				"values" : [ false, false, false, false, false, false, false, false, false, true ]

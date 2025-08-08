@@ -64,7 +64,7 @@
 			"bonuses": {
 				"iceBolt" : {
 					"type": "SPECIAL_SPELL_LEV",
-					"subtype": "spell.iceBolt",
+					"subtype": "iceBolt",
 					"val": 5
 				}
 			}

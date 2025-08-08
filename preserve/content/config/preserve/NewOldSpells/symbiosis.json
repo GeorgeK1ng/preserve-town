@@ -75,18 +75,20 @@
 						"val" : 1,
 						"limiters": [ {
 							"type":"CREATURE_TYPE_LIMITER",
-							"parameters": [ "caveleaper", false ]
+							"creature" : "caveleaper", 
+							"includeUpgrades" : false 
 						} ],
 					},
 					"tigerBonus" :
 					{
 						"propagator" : 	"HERO",
 						"type" : "SPELL_AFTER_ATTACK",
-						"subtype" : "spell.scout",
+						"subtype" : "scout",
 						"val" : 20,
 						"limiters": [ {
 							"type":"CREATURE_TYPE_LIMITER",
-							"parameters": [ "misfortuneeye", false ]
+							"creature":  "misfortuneeye", 
+							"includeUpgrades" : false
 						} ]
 					}
 				}

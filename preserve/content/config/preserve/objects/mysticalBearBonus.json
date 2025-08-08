@@ -18,7 +18,7 @@
 							"type" : "CASTS", 
 							"val" : 1,
 							"duration" : "ONE_BATTLE",
-							"limiters": [ {"type":"CREATURE_TYPE_LIMITER","parameters": [ "fairybear", true ]} ]
+							"limiters": [ {"type":"CREATURE_TYPE_LIMITER","creature":  "fairybear", "includeUpgrades" : true } ]
 						},
 						{
 							"type" : "ENCHANTER",
@@ -26,7 +26,7 @@
 							"val" : 3,
 							"addInfo" : 3,
 							"duration" : "ONE_BATTLE",
-							"limiters": [ {"type":"CREATURE_TYPE_LIMITER","parameters": [ "fairybear", true ]} ]
+							"limiters": [ {"type":"CREATURE_TYPE_LIMITER","creature":  "fairybear", "includeUpgrades" : true } ]
 						}
 						],
 						"changeCreatures" : {
@@ -66,7 +66,7 @@
 							"subtype" : "attack",
 							"valueType" : "ADDITIVE_VALUE",
 							"duration" : "ONE_BATTLE",
-							"limiters": [ {"type":"CREATURE_TYPE_LIMITER","parameters": [ "fairybear", true ]} ]
+							"limiters": [ {"type":"CREATURE_TYPE_LIMITER","creature":  "fairybear", "includeUpgrades" : true } ]
 						},
 						{ 
 							"type": "PRIMARY_SKILL",
@@ -74,14 +74,14 @@
 							"subtype" : "defence",
 							"valueType" : "ADDITIVE_VALUE",
 							"duration" : "ONE_BATTLE",
-							"limiters": [ {"type":"CREATURE_TYPE_LIMITER","parameters": [ "fairybear", true ]} ]
+							"limiters": [ {"type":"CREATURE_TYPE_LIMITER","creature":  "fairybear", "includeUpgrades" : true } ]
 						},
 						{
 							"type" : "STACKS_SPEED",
 							"val" : 1,
 							"valueType" : "BASE_NUMBER",
 							"duration" : "ONE_BATTLE",
-							"limiters": [ {"type":"CREATURE_TYPE_LIMITER","parameters": [ "fairybear", true ]} ]
+							"limiters": [ {"type":"CREATURE_TYPE_LIMITER","creature":  "fairybear", "includeUpgrades" : true } ]
 						}
 						]
 					},
@@ -142,7 +142,7 @@
 							"subtype" : "attack",
 							"valueType" : "ADDITIVE_VALUE",
 							"duration" : "ONE_BATTLE",
-							"limiters": [ {"type":"CREATURE_TYPE_LIMITER","parameters": [ "fairybear", true ]} ]
+							"limiters": [ {"type":"CREATURE_TYPE_LIMITER","creature":  "fairybear", "includeUpgrades" : true } ]
 						},
 						{ 
 							"type": "PRIMARY_SKILL",
@@ -150,7 +150,7 @@
 							"subtype" : "defence",
 							"valueType" : "ADDITIVE_VALUE",
 							"duration" : "ONE_BATTLE",
-							"limiters": [ {"type":"CREATURE_TYPE_LIMITER","parameters": [ "fairybear", true ]} ]
+							"limiters": [ {"type":"CREATURE_TYPE_LIMITER","creature":  "fairybear", "includeUpgrades" : true } ]
 						},
 						{
 							"val" : 15,
@@ -158,14 +158,14 @@
 							"subtype" : "creatureDamageBoth",
 							"valueType": "PERCENT_TO_BASE",
 							"duration" : "ONE_BATTLE",
-							"limiters": [ {"type":"CREATURE_TYPE_LIMITER","parameters": [ "fairybear", true ]} ]
+							"limiters": [ {"type":"CREATURE_TYPE_LIMITER","creature":  "fairybear", "includeUpgrades" : true } ]
 						},
 						{
 							"type" : "STACKS_SPEED",
 							"val" : 1,
 							"valueType" : "BASE_NUMBER",
 							"duration" : "ONE_BATTLE",
-							"limiters": [ {"type":"CREATURE_TYPE_LIMITER","parameters": [ "fairybear", true ]} ]
+							"limiters": [ {"type":"CREATURE_TYPE_LIMITER","creature":  "fairybear", "includeUpgrades" : true } ]
 						}
 						]
 					},
@@ -200,7 +200,7 @@
 							"subtype" : "attack",
 							"valueType" : "ADDITIVE_VALUE",
 							"duration" : "ONE_BATTLE",
-							"limiters": [ {"type":"CREATURE_TYPE_LIMITER","parameters": [ "fairybear", true ]} ]
+							"limiters": [ {"type":"CREATURE_TYPE_LIMITER","creature":  "fairybear", "includeUpgrades" : true } ]
 						},
 						{ 
 							"type": "PRIMARY_SKILL",
@@ -208,21 +208,21 @@
 							"subtype" : "defence",
 							"valueType" : "ADDITIVE_VALUE",
 							"duration" : "ONE_BATTLE",
-							"limiters": [ {"type":"CREATURE_TYPE_LIMITER","parameters": [ "fairybear", true ]} ]
+							"limiters": [ {"type":"CREATURE_TYPE_LIMITER","creature":  "fairybear", "includeUpgrades" : true } ]
 						},
 						{
 							"type" : "ENCHANTED",
-							"subtype" : "spell.bless",
+							"subtype" : "bless",
 							"val" : 2,
 							"duration" : "ONE_BATTLE",
-							"limiters": [ {"type":"CREATURE_TYPE_LIMITER","parameters": [ "fairybear", true ]} ]
+							"limiters": [ {"type":"CREATURE_TYPE_LIMITER","creature":  "fairybear", "includeUpgrades" : true } ]
 						},
 						{
 							"type" : "STACKS_SPEED",
 							"val" : 1,
 							"valueType" : "BASE_NUMBER",
 							"duration" : "ONE_BATTLE",
-							"limiters": [ {"type":"CREATURE_TYPE_LIMITER","parameters": [ "fairybear", true ]} ]
+							"limiters": [ {"type":"CREATURE_TYPE_LIMITER","creature":  "fairybear", "includeUpgrades" : true } ]
 						}
 						]
 					},

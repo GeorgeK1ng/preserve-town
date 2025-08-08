@@ -76,19 +76,19 @@
 			},
 			"castsWeakness" : {
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.weakness",
+				"subtype" : "weakness",
 				"val" : 100,
 				"addInfo" : [1,1,0]
 			},
 			"castsSlow" : {
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.slow",
+				"subtype" : "slow",
 				"val" : 100,
 				"addInfo" : [1,1,1]
 			},
 			"castsDisruptingRay" : {
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.poison",
+				"subtype" : "poison",
 				"val" : 100,
 				"addInfo" : [1,1,2]
 			}
@@ -99,18 +99,16 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.defence",
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
 			},
@@ -141,7 +139,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_IMMUNITY", 
-					"subtype" : "spell.dispelHelpful",
+					"subtype" : "dispelHelpful",
 					"addInfo" : 1
 				},
 				"values" : [ false, false, false, false, true, true, true, true, true, true ]			
@@ -150,7 +148,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : "spell.stoneGaze",
+					"subtype" : "stoneGaze",
 					"addInfo" : [1, 2]
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]			
@@ -159,7 +157,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.bloodlust"
+					"subtype" : "bloodlust"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 2, 2, 2, 3 ]			
 			},

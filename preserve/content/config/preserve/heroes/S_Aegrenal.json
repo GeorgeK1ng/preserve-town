@@ -64,13 +64,13 @@
 				"choir":
 				{
 					"type": "OPENING_BATTLE_SPELL",
-					"subtype": "spell.choir",
+					"subtype": "choir",
 					"val" : 7,
 					"valueType" : "BASE_NUMBER"
 				},
 				"bind" : 
 				{
-					"subtype" : "spell.choir",
+					"subtype" : "choir",
 					"type" : "SPELL",
 					"val" : 1,
 					"valueType" : "BASE_NUMBER"

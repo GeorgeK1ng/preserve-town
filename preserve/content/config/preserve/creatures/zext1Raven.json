@@ -64,7 +64,7 @@
 			"blinds" :
 			{
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.blind",
+				"subtype" : "blind",
 				"val" : 30
 			}
 		},	
@@ -73,18 +73,16 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.defence",
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
 			},
