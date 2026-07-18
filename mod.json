@@ -101,7 +101,13 @@
 			"translation/polish.json"
 		]
 	},
-
+	"czech" : {
+		"name" : "Obora",
+		"description" : "Nové město inspirované lesním prostředím od Bena Yana",
+		"translations" : [
+			"translation/czech.json"
+		]
+	},
 	"factions" : [
 		"config/preserve/town"
 	],
